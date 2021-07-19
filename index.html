@@ -13,8 +13,8 @@
 <!-- bootstrap-tempusdominus css-->
 <link rel="stylesheet" href="css/tempusdominus-bootstrap-4.css">
 <!-- fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="fonts/Josefin_Sans.css" rel="stylesheet">
+<link href="fonts/Open_sans.css" rel="stylesheet">
 <!-- slick carosal  css -->
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 <link rel="stylesheet" type="text/css" href="css/slick.css">
@@ -30,37 +30,38 @@
 	<div class="background">
 		<div class="main_container">
 			<!-- first part  start header  -->
-			<div class="nave_bar">
-
-				<div style="padding:8px 150px 8px 8px;"><span class="lnr lnr-menu"></span></div>
-				<div class="nave_bar_items_1"> 
-					<div>Home</div>
-					<div>About</div>
-					<div class="dropdwon" >
-
-						<div style="display: flex;">
-							<div >Special_Dishes</div>
-	  						<div style="margin-left:4px; position: relative; top: -3px;"><i class="fas fa-sort-down"></i></div>
+			<div class="nav_bar">
+				<div>
+					<div>
+						<span class="lnr lnr-menu hover"></span>
+					</div>
+					<div>
+						<div class="hover">Home</div>
+						<div class="hover">About</div>
+						<div>
+							<div class="display" >Speial Dishes <i class="fa fa-lg fa-caret-down"></i></div>
+							<div class="dorpdown ">
+								<div class="">Beef Steak Sauce</div>
+								<div class="">Salmon Zucchini</div>
+							</div>
 						</div>
-						<div class="dropdwon_1">					
-							<div style="font-weight: 800;">Beef_Steak_Sauce</div>
-							<div style="font-weight: 800;">Salmon Zucchini</div>
-						</div>
-
 					</div>
 				</div>
-				<img  src="img/logo.png">
+				<div><img src="img/logo.png"></div>
+				<div>
+					<div>
+						<span class="hover">Menu</span>
+						<span class="hover">Team</span>
+						<span class="hover">Reservation</span>
+					</div>
+					<div class="hover"><span class="lnr lnr-magnifier"></span></div>
+				</div>
 
 
-				<div class="nave_bar_items_1"> 
-				<div>Menu</div>
-				<div>Team</div>
-				<div>Reservation</div>
-			    </div>
-
-			    <div style="padding-left: 140px;"><span class="lnr lnr-magnifier"></span></div>
-    			<!-- end frist part  header -->
 			</div>
+
+
+
 			<!-- start secound part  -->
 			<div class="secound_part">
 				<div class="secound_part_1">
@@ -122,7 +123,7 @@
 						<div class="about">About</div>
 						<div class="wlcom">Welcome to Resto</div>
 						<div>
-						On her way she met a copy. The copy warned the Little Blind Text, that where<br> it came from it would have been rewritten a thousand times and everything that <br>was left from its origin would be the word "and" and the Little Blind Text should  <br>turn around and return to its own, safe country. A small river named Duden flows <br>by their place and supplies it with the necessary regelialia. It is a paradisematic<br> country, in which roasted parts of sentences fly into your mouth.
+						On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should  turn around and return to its own, safe country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
 						</div>
 
 						<div class="Recipe">
@@ -164,31 +165,30 @@
 				<div>$15.00</div>
 				<div>Book A Table</div>					
 			</div>
+			<div class="space"></div>
 			<div class="forth_part_2_2">
-				<div></div>
+				<img src="https://technext.github.io/resto/img/steak.jpg">
 			</div></div>
 		</div>
 		<!-- end  forth_part -->
-		<!-- start  fifth_part -->
-		<div class="fifth_part">
-				<div class="forth_part_2">
-					<div style="order: 2; padding-left: 120px;" class="forth_part_2_1">
-						<div>02.</div>	
-						<div>Salmon</div>
-						<div>Zucchini</div>
-						<div>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Blanditiis, accusamus culpa quam<br> amet ipsam odit ea doloremque accusantium<br> quo, itaque possimus eius. In a quis quibusdam<br> omnis atque vero dolores!
-						</div>
-						<div>$15.00</div>
-						<div>Book A Table</div>					
-					</div>
-					<div style="order: 1; " class="fifth_part_2_2">
-						<div></div>
 
-						
-					</div>
-				</div>
+		<div class="forth_part">
+
+			<div class="forth_part_2">
+			<div class="forth_part_2_1 forth_part_2_1_copy">
+				<div>02.</div>	
+				<div>Beef</div>
+				<div>Steak Sauce</div>
+				<div>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Cupiditate, ea vero alias<br> perferendis quas animi doloribusvoluptates.<br> Atque explicabo ea nesciunt provident libero qui<br> eum, corporis esse quos excepturi soluta?</div>
+				<div>$12.00</div>
+				<div>Book A Table</div>					
+			</div>
+			<div class="space_copy"></div>
+			<div class="forth_part_2_2_copy">
+				<img src="https://technext.github.io/resto/img/salmon-zucchini.jpg">
+			</div></div>
 		</div>
-		<!-- end fifth_part -->
+
 		<!-- start sixtj_part -->
 			<div class="sixth_part main_container">
 				<div>Specialties</div>
@@ -228,10 +228,11 @@
 
 					<div style="flex:33.33%;">
 						<div class="section_1">
+
 							<div class="section_1_head" >Breakfast</div>
-							<div class="section_1_img"><img src="img/breakfast-1.jpg"></div>
+							<div class="section_1_img"><img src="https://technext.github.io/resto/img/breakfast-1.jpg"></div>
 							<div class="section_1_txt">
-								<div>Egg andwich</div>
+								<div>EggSandwich</div>
 								<div>Meat Ball, Mie</div>
 							</div>
 							<div class="section_1_num">$30</div>
@@ -320,51 +321,59 @@
 			<p>Specialties</p>
 			<h2>Our Team</h2>
 
-			<div class="ceifs">
 
-				<div class="ceif_1">
-					<div class="ceif_info">
-						<h2>Aaron Patel</h2>
-						<p>CEO</p>
-						<div class="ceif_social">
-							<i class="fab fa-facebook-f"></i>
-							<i class="fab fa-twitter"></i>
-							<i class="fab fa-instagram "></i>
-							<i class="fab fa-google-plus-g"></i>
+				<div class="ceifs">
+					<div class="cheif_1">
+						<img src="img/chef-1.jpg">
+						<div class="ceif_info">
+							<div>
+								<div class="cheif_name">Aaron Patel</div>
+								<p class="ceif_position">CEO</p>
+							</div>
+							<div class="cheif_social">
+								<span><i class="fab fa-facebook-f"></i></span>
+								<span><i class="fab fa-instagram"></i></span>
+								<span><i class="fab fa-twitter"></i></span>
+								<span><i class="fab fa-google-plus-g"></i></span>
+								<span></span>
+							</div>
 						</div>
 					</div>
 
-				</div>				
-
-				<div class="ceif_1">
-					<div class="ceif_info">
-						<h2>Daniel Tebas</h2>
-						<p>Chef</p>
-						<div class="ceif_social">
-							<i class="fab fa-facebook-f"></i>
-							<i class="fab fa-twitter"></i>
-							<i class="fab fa-instagram "></i>
-							<i class="fab fa-google-plus-g"></i>
+					<div class="cheif_1">
+						<img src="img/chef-2.jpg">
+						<div class="ceif_info">
+							<div>
+								<div class="cheif_name">Daniel Tebas</div>
+								<p class="ceif_position">Chef</p>
+							</div>
+							<div class="cheif_social">
+								<span><i class="fab fa-facebook-f"></i></span>
+								<span><i class="fab fa-instagram"></i></span>
+								<span><i class="fab fa-twitter"></i></span>
+								<span><i class="fab fa-google-plus-g"></i></span>
+								<span></span>
+							</div>
 						</div>
 					</div>
 
+					<div class="cheif_1">
+						<img src="img/chef-3.jpg">
+						<div class="ceif_info">
+							<div>
+								<div class="cheif_name">Jon Snow</div>
+								<p class="ceif_position">Chef</p>
+							</div>
+							<div class="cheif_social">
+								<span><i class="fab fa-facebook-f"></i></span>
+								<span><i class="fab fa-instagram"></i></span>
+								<span><i class="fab fa-twitter"></i></span>
+								<span><i class="fab fa-google-plus-g"></i></span>
+								<span></span>
+							</div>
+						</div>
+					</div>
 				</div>
-
-				<div class="ceif_1">
-					<div class="ceif_info">
-						<h2>Jon Snow</h2>
-						<p>Chef</p>
-						<div class="ceif_social">
-							<i class="fab fa-facebook-f"></i>
-							<i class="fab fa-twitter"></i>
-							<i class="fab fa-instagram "></i>
-							<i class="fab fa-google-plus-g"></i>
-						</div>
-					</div>
-
-				</div>
-
-			</div>	
 		</div>
 		<!-- end eighth part -->
 		<!-- start ninth part -->
@@ -374,20 +383,20 @@
 
 				<div class="mb-3">
 
-					<div class= "regester_lable">Reservation</div>
-					<div>Book Now</div> 
-					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-					<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-					<input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+					<div class= "regester_lable ">Reservation</div>
+					<div class="margin_bottom_20px">Book Now</div> 
+					<input type="email" class="form-control margin_bottom_20px" id="exampleFormControlInput1" placeholder="name@example.com">
+					<input type="text" class="form-control margin_bottom_20px" id="exampleFormControlInput1" placeholder="Name">
+					<input type="number" class="form-control margin_bottom_20px" id="exampleFormControlInput1" placeholder="Name">
 
 
-					<div class="datetimepicker">
-						<div class="container">
+					<div class="datetimepicker"><!-- for date only  -->
+						<div class="container margin_bottom_20px">
 						    <div class="row">
 						        <div class="col-sm-6 col-6-1">
 						            <div class="form-group">
 						                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
-						                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4"/>
+						                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4" placeholder="Date" />
 						                    <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
 						                        <div class="input-group-text"><span class="lnr lnr-clock"></span></div>
 						                    </div>
@@ -397,12 +406,12 @@
 						    </div>
 						</div>
 
-						<div class="container">
+						<div class="container margin_bottom_20px"><!-- for time only  -->
 						    <div class="row">
 						        <div class="col-sm-6 col-6-2">
 						            <div class="form-group">
 						                <div class="input-group date" id="datetimepicker3" data-target-input="nearest">
-						                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3"/>
+						                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker3" placeholder="Time" />
 						                    <div class="input-group-append" data-target="#datetimepicker3" data-toggle="datetimepicker">
 						                        <div class="input-group-text"><span class="lnr lnr-calendar-full"></span></div>
 						                    </div>
@@ -418,15 +427,98 @@
 				</div>
 
 
-				<div class="mb-3">
+				<div class="mb-3 ">
 				  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
 				</div>
 				
 			</div>
 		</div>
 		<!-- end ninth part -->
+		<!-- start footer -->
+		<div class="footer">
+			<div class="footer_container">
+				<div>
+					<img src="img/logo.png"></img>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et obcaecati quisquam id sit omnis explicabo voluptate aut placeat, soluta, nisi ea magni facere, itaque incidunt modi? Magni, et voluptatum dolorem.</p>
+					<span><i class="fab  fa-facebook-f"></i></span>
+					<span><i class="fab  fa-twitter"></i></span>
+					<span><i class="fab  fa-instagram"></i></span>
+				</div>
+				<div>
+					<h4>Open Hours</h4>
+					<div>
+						<div>Monday</div>
+						<div>9:00-24:00</div>
+					</div>
+
+
+					<div>
+						<div>Wednesday</div>
+						<div>9:00-24:00</div>
+					</div>
+
+					
+					<div>
+						<div>Thursday</div>
+						<div>9:00-24:00</div>
+					</div>
+
+					
+					<div>
+						<div>Friday</div>
+						<div>9:00-02:00</div>
+					</div>
+
+					
+					<div>
+						<div>Saturday</div>
+						<div>9:00-02:00</div>
+					</div>
+
+					<div>
+						<div>Sunday</div>
+						<div>Closed</div>
+					</div>
+				</div>
+				<div>
+					<h4>Newsletter</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<input class="form-control" type="text" placeholder="Enter email" aria-label="default input example">
+					<button type="button" class="btn btn-primary">Submit</button>
+
+					
+				</div>
+			</div>
+			<div>Copyright 2021. All Right Reserved. Design by <span>Saeed-Khaled</span></div>
+		</div>
+
+		<!-- end footer -->
 
 	</div>
+
+				<!-- nave media -->
+<div class="nav_bar_media">
+				<div>
+					<div><img src="img/logo.png"></div>
+					<div>
+						<span class="lnr lnr-menu hover"></span>
+					</div>
+				</div>
+				<div class="dorpdown_media">
+					<div class="hover padding">Home</div>
+					<div class="hover padding">About</div>
+					<div class="display  padding  " >Speial Dishes <i class="fa fa-lg fa-caret-down"></i></div>
+					<div class="dorpdown" style="display: none; box-shadow: none; opacity: 1;">
+						<div style="width: ;"  class="">Beef Steak Sauce</div>
+						<div class="">Salmon Zucchini</div>
+					</div>
+					<div class="hover padding">Menu</div>
+					<div class="hover padding">Team</div>
+					<div class="hover padding">Reservation</div>
+					<div class="hover"><span class="lnr lnr-magnifier "></span></div>
+				</div>
+
+</div>
 			
 
 <!-- jqery -->

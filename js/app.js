@@ -27,6 +27,15 @@
 
         $('#datetimepicker3').datetimepicker({
             format: 'LT'
-    });
-    });
+        });
+            $( ".display" ).click(function() {
+              $( ".dorpdown" ).toggle();
+            });
+
+        $(".lnr").click(function () {
+            $(".dorpdown_media").slideToggle("slow");
+            
+        });
+
+});
 
