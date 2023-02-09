@@ -174,7 +174,7 @@ i.fa.fa-caret-down.fa-lg {
 
 .displaynon{
 	display: none;
-	background-color: ;
+	/* background-color: ; */
 }
 
 /*secound part*/
@@ -661,7 +661,7 @@ height: 100%;
 	background-size:100% 100%;
 	width: 100%;
 	height: calc(663px);
-	backface-visibility: ;
+	/* backface-visibility: ; */
 	color: white;	
 	overflow: hidden;
 
